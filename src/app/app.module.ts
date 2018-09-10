@@ -22,7 +22,7 @@ import { PostService } from './post/post.service';
 const routes: Routes = [
   { path: '', component: HomeComponent},
   { path: 'home', component: HomeComponent},
-  { path: 'post:id', component: PostComponent }
+  { path: 'post/:id', component: PostComponent }
 ];
 
 

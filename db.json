@@ -56,6 +56,21 @@
       "text": "First Comment",
       "postId": 3,
       "id": 4
+    },
+    {
+      "text": "Hola",
+      "postId": 1,
+      "id": 5
+    },
+    {
+      "text": "Holaasd",
+      "postId": 1,
+      "id": 6
+    },
+    {
+      "text": "Holaasdas",
+      "postId": 1,
+      "id": 7
     }
   ]
 }
