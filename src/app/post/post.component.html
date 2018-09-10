@@ -1,0 +1,29 @@
+<div class="row posts-container">
+  <div class="col-md-6 offset-md-3">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title>Title: {{post.title}}</mat-card-title>
+        <mat-card-subtitle>Author: {{post.author}}</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image src="{{post.image}}" alt="Photo">
+      <mat-card-content>
+        <p>{{post.description}}</p>
+      </mat-card-content>
+      <mat-list>
+        <h3 mat-subheader>Comments</h3>
+        <mat-list-item *ngFor="let comment of comments">
+          <h4 mat-line>{{comment.text}}</h4>
+        </mat-list-item>
+        <mat-list-item>
+          <div class="example-input input-group">
+            <input matInput type="text" class="form-control" [(ngModel)]="comment" placeholder="Leave a comment...">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button" (click)="sendComment()">Send</button>
+            </span>
+          </div>
+        </mat-list-item>
+      </mat-list>
+
+    </mat-card>
+  </div>
+</div>

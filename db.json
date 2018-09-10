@@ -1,0 +1,61 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Car",
+      "description": "This is the Car description...",
+      "author": "Mike",
+      "image": "assets/images/car.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Tiger",
+      "description": "This is the Tiger description...",
+      "author": "Robert",
+      "image": "assets/images/tiger.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Restaurant",
+      "description": "This is the Restaurant description...",
+      "author": "Mike",
+      "image": "assets/images/restaurant.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Stadium",
+      "description": "This is the Stadium description...",
+      "author": "Carl",
+      "image": "assets/images/stadium.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Aquatic Park",
+      "description": "This is the Aquatic Park description...",
+      "author": "Robert",
+      "image": "assets/images/park.jpg"
+    }
+  ],
+  "comments": [
+    {
+      "text": "Primer Comentario",
+      "postId": 1,
+      "id": 1
+    },
+    {
+      "text": "Segundo Comentario",
+      "postId": 1,
+      "id": 2
+    },
+    {
+      "text": "Tercer Comentario",
+      "postId": 1,
+      "id": 3
+    },
+    {
+      "text": "First Comment",
+      "postId": 3,
+      "id": 4
+    }
+  ]
+}
